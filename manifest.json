@@ -61,9 +61,10 @@
                   "public_302" : "Visible redirect (302, temporary). Everybody will be able to access it.",
                   "public_301" : "Visible redirect (301, permanent). Everybody will be able to access it.",
                   "public_proxy": "Proxy, invisible (nginx proxy_pass). Everybody will be able to access it.",
-                  "private_proxy": "Proxy, invisible (nginx proxy_pass). Only accessible for allowed users."
+                  "private_proxy": "Proxy, invisible (nginx proxy_pass). Only accessible for allowed users.",
+                  "public_proxy_no_tile": "Proxy, invisible (nginx proxy_pass), without YunoHost tile. Everybody will be able to access it."
                 },
-                "default": "public_302"
+                "default": "public_proxy_no_tile"
             }
         ]
     }
